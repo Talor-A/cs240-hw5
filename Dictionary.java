@@ -1,5 +1,7 @@
 import java.util.Iterator;
-
+/**
+ * Dictionary
+ */
 public class Dictionary<K extends Comparable<K>, V> implements DictionaryInterface<K, V> {
   SortedList<Entry<K, V>> list = new SortedList();
 
